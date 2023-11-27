@@ -9,12 +9,37 @@
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
 <body>
-  <div class="wrapper">
-    <li class="add-box">
+  
+  <div class="popup-box"> <!-- create popup window -->
+    <div class="popup">
+      <div class="content">
+        <header>
+          <p>Add Note</p>
+          <i class="uil uil-times"></i>
+        </header>
+        <form action="#">
+          <div class="row title">
+            <label for="">Title</label>
+            <input type="text" name="" id="">
+          </div>
+          <div class="row description">
+            <label for="">Description</label>
+            <textarea name="" id=""></textarea>
+          </div>
+          <button>Add Note</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper"> <!-- main template -->
+
+    <li class="add-box"> <!-- Create New note button -->
       <div class="icon"><i class="uil uil-plus"></i></div>
       <p>Add new Note</p>
     </li>
-    <li class="note">
+
+    <li class="note"> <!-- Each note body -->
       <div class="details">
         <p>This is a title</p>
         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus impedit officia dolor rem?</span>
@@ -30,6 +55,7 @@
         </div>
       </div>
     </li>
+
     <li class="note">
       <div class="details">
         <p>This is a title</p>
@@ -42,6 +68,7 @@
         </div>
       </div>
     </li>
+
     <li class="note">
       <div class="details">
         <p>This is a title</p>
@@ -54,6 +81,7 @@
         </div>
       </div>
     </li>
+
     <li class="note">
       <div class="details">
         <p>This is a title</p>
@@ -66,6 +94,7 @@
         </div>
       </div>
     </li>
+
     <li class="note">
       <div class="details">
         <p>This is a title</p>
@@ -79,5 +108,6 @@
       </div>
     </li>
   </div>
+
 </body>
 </html>
